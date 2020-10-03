@@ -15,7 +15,7 @@ import numeral from "numeral";
 import Map from "./Map";
 import "leaflet/dist/leaflet.css";
 
-// app component
+// app component update
 const App = () => {
     const [country, setInputCountry] = useState("worldwide");
     const [countryInfo, setCountryInfo] = useState({});
